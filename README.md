@@ -32,7 +32,7 @@ python create_markdown.py <folder> <video> <output>
 
 Where `<folder>` is the directory containing the extracted slide images and subtitle file (*.srt), `<video>` is the conference video file, and `<output>` is the markdown file to be generated.
 
-3. Finally, use `translate.py` to translate and summarize the markdown file:
+3. [optional] Use `translate.py` to translate and summarize the markdown file:
 
 ```bash
 python translate.py <input_file> <output_file> [--start_image START_IMAGE]
@@ -45,3 +45,5 @@ Note: Before using `translate.py`, make sure you have configured the OpenAI API 
 ```bash
 export OPENAI_API_KEY="your_api_key_here"
 ```
+
+4. [optional] If you use VS Code, you can install the Pandoc plugin to export markdown as PDF, Word, HTML.

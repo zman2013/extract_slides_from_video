@@ -53,3 +53,4 @@ python translate.py <input_file> <output_file> [--start_image START_IMAGE]
 export OPENAI_API_KEY="your_api_key_here"
 ```
 
+4. [optional] 如果使用 VS Code，可以安装 Pandoc 插件将 markdown 导出为 pdf、word、html等格式。
